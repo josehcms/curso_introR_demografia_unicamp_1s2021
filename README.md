@@ -26,15 +26,15 @@ A proposta inicial é dividir o curso em cinco etapas:
 
 # Materiais
 
-## Parte 1 - Introdução e conceitos básicos
+### Parte 1 - Introdução e conceitos básicos
 
-## Parte 2 - Ferramentas básicas de programação
+### Parte 2 - Ferramentas básicas de programação
 
-## Parte 3 - Leitura e manipulação de bases de dados
+### Parte 3 - Leitura e manipulação de bases de dados
 
-## Parte 4 - Manipulação de bases de dados com `data.table` 
+### Parte 4 - Manipulação de bases de dados com `data.table` 
 
-## Parte 5 - Visualização de dados com `ggplot2`
+### Parte 5 - Visualização de dados com `ggplot2`
 
 # Referências
 ...
