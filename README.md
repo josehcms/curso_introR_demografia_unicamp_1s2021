@@ -16,7 +16,7 @@ A proposta inicial é dividir o curso em cinco etapas:
 
 * Apresentação dos recursos e funções básicas do R e do RStudio;
 
-* Introdução aos recursos básicos de programação (operadores lógicos, `loops`, criação de funções);
+* Introdução aos recursos básicos de programação (operadores lógicos, _loops_, criação de funções);
 
 * Leitura e manipulação de bases de dados utilizando os recursos básicos do R;
 
