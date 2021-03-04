@@ -6,13 +6,13 @@
 
 **Data:** 08-Março-2021 à 12-Março-2021
 
-**Horário:** 20:00-22:00
+**Horário:** 20:00-22:00 (_a definir_)
 
 # Proposta do curso
 
 O curso tem como objetivo *apresentar* ferramentas básicas do R que possam ser úteis na área de demografia. 
 
-A proposta inicial é dividir o curso em cinco etapas:
+A proposta inicial é dividir o curso em cinco etapas, sendo elas:
 
 * Apresentação dos recursos e funções básicas do R e do RStudio;
 
@@ -23,6 +23,8 @@ A proposta inicial é dividir o curso em cinco etapas:
 * Introdução à manipulação de bases de dados utilizando o pacote `data.table`;
 
 * Introdução à vizualização de dados utilizando o pacote `ggplot2`.
+
+A ideia é que as duas últimas etapas sejam trabalhadas utilizando os microdados do Censo Demográfico de 2010.
 
 # Materiais
 
