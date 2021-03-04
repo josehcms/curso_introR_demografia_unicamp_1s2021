@@ -28,6 +28,11 @@ A ideia é que as duas últimas etapas sejam trabalhadas utilizando os microdado
 
 # Materiais
 
+### [Instalação e passos iniciais](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_0/)
+
+* [**aula_0**](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_0/aula_0.md): passo a passo da instalação do **R** e **RStudio**
+
+
 ### Parte 1 - Introdução e conceitos básicos
 
 ### Parte 2 - Ferramentas básicas de programação
