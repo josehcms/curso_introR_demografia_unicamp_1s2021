@@ -15,3 +15,7 @@ No curso vamos utilizar o **[RStudio](https://rstudio.com)**, um IDE (do inglês
 Para instalação, siga os passos [neste link](https://rstudio.com/products/rstudio/download/), optando pela versão **RStudio Desktop**.
 
 Se sua máquina for Windows, basta [clicar aqui](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.exe) para proceder com o download e instalação.
+
+### Passo 3: se familiarizando com o *RStudio*
+
+[![Introdução à interface do RStudio](https://img.youtube.com/vi/7yhw_xYWqlU/0.jpg)](https://www.youtube.com/watch?v=7yhw_xYWqlU)
