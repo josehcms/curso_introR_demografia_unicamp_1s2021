@@ -18,4 +18,8 @@ Se sua máquina for Windows, basta [clicar aqui](https://download1.rstudio.org/d
 
 ### Passo 3: se familiarizando com o *RStudio*
 
+O breve vídeo (cerca de 5 minutos) a seguir dá uma boa introdução à alguns comandos básicos do *RStudio*. 
+
 [![Introdução à interface do RStudio](https://img.youtube.com/vi/7yhw_xYWqlU/0.jpg)](https://www.youtube.com/watch?v=7yhw_xYWqlU)
+
+Estou à disposição em caso de dúvidas ou dificuldades com a instalação.
