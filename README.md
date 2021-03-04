@@ -1,12 +1,12 @@
 # Introdução ao R - Demografia UNICAMP - 1s2021
 
-*Responsável:* José H C Monteiro da Silva
+**Responsável:** José H C Monteiro da Silva
 
-*Local:* Google Meet
+**Local:** Google Meet
 
-*Data:* 08-Março-2021 à 12-Março-2021
+**Data:** 08-Março-2021 à 12-Março-2021
 
-*Horário:* 20:00-22:00
+**Horário:** 20:00-22:00
 
 # Proposta do curso
 
@@ -20,9 +20,9 @@ A proposta inicial é dividir o curso em cinco etapas:
 
 * Leitura e manipulação de bases de dados utilizando os recursos básicos do R;
 
-* Introdução à manipulação de bases de dados utilizando o pacote _data.table_;
+* Introdução à manipulação de bases de dados utilizando o pacote `data.table`;
 
-* Introdução à vizualização de dados utilizando o pacote _ggplot2_.
+* Introdução à vizualização de dados utilizando o pacote `ggplot2`.
 
 # Materiais
 
@@ -32,9 +32,9 @@ A proposta inicial é dividir o curso em cinco etapas:
 
 ## Parte 3 - Leitura e manipulação de bases de dados
 
-## Parte 4 - Manipulação de bases de dados com _data.table_ 
+## Parte 4 - Manipulação de bases de dados com `data.table` 
 
-## Parte 5 - Visualização de dados com _ggplot2_ 
+## Parte 5 - Visualização de dados com `ggplot2`
 
 # Referências
 ...
