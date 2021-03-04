@@ -16,9 +16,9 @@ Para instalação, siga os passos [neste link](https://rstudio.com/products/rstu
 
 Se sua máquina for Windows, basta [clicar aqui](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.exe) para proceder com o download e instalação.
 
-### Passo 3: se familiarizando com o *RStudio*
+### Passo 3: se familiarizando com o **RStudio**
 
-O breve vídeo (cerca de 5 minutos) a seguir dá uma boa introdução à alguns comandos básicos do *RStudio*. 
+O breve vídeo (cerca de 5 minutos) a seguir dá uma boa introdução à alguns comandos básicos do **RStudio**. 
 
 [![Introdução à interface do RStudio](https://img.youtube.com/vi/7yhw_xYWqlU/0.jpg)](https://www.youtube.com/watch?v=7yhw_xYWqlU)
 
