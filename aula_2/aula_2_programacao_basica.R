@@ -2,7 +2,7 @@
 ### Curso Introducao ao R - 1s2021
 ### Programa de Pos-Graduacao em Demografia - Unicamp
 ### Instrutor: Jose H C Monteiro da Silva
-### Aula 1
+### Aula 2
 ######################################################
 
 ### Parte 0: Preparando a area de trabalho #----------
@@ -257,19 +257,12 @@ convert_min( 2 )
 
 ### EXERCICIO: crie um conversor de meses para anos
 
-convert_meses_anos <-
-  function( t_meses ){
-    t_meses / 12
-  }
-
-
 ### EXERCICIO: crie um conversor que converta tempo em dias ou meses para anos
 ### Dica:
 ### 1) defina a funcao com dois parametros ( t e tipo )
 ### tipo = 'dias' ou tipo = 'meses'; t = valor (em dias ou meses)
 ### 2) use if e/ou else para checar o valor de tipo e definir qual operacao
 ### deve ser feita
-
 
 ### EXERCICIO: Interpolacao linear
 ## Considere a equação da reta: 
