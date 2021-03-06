@@ -30,12 +30,15 @@ A ideia é que as duas últimas etapas sejam trabalhadas utilizando os microdado
 
 ### [Instalação e passos iniciais](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_0/)
 
-* [**aula_0**](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_0/aula_0.md): passo a passo da instalação do **R** e **RStudio**
-
+* [**aula_0**](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_0/instalacao.md): passo a passo da instalação do **R** e **RStudio**
 
 ### Parte 1 - Introdução e conceitos básicos
 
+* [**aula_1**](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_1/aula_1_intro.R): funcionalidades básicas.
+
 ### Parte 2 - Ferramentas básicas de programação
+
+* [**aula_2**](https://github.com/josehcms/curso_introR_demografia_unicamp_1s2021/blob/main/aula_2/aula_2_programacao_basica.R): operadores lógicos, condicionais, _loops_ e funcções.
 
 ### Parte 3 - Leitura e manipulação de bases de dados
 
