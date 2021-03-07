@@ -187,6 +187,9 @@ sort( c( 'z', 'a', 'c', 'b', 'w', 'm', 'l' ) )
 # para ordem decrescente:
 sort( c( 10, 540, 1, 20, 0 ), decreasing = TRUE )
 
+# Soma elementos do vetor
+sum( c( 5, 10, 20, 30, 100 ) )
+
 # Maximo e minimo
 max( c( 10, 540, 1, 20, 14, 99, 89, 70, 40, 35, 2, 0, 1 ) )
 min( c( 10, 540, 1, 20, 14, 99, 89, 70, 40, 35, 2, 0, 1 ) )

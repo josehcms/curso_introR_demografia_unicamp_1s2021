@@ -156,8 +156,7 @@ while( x < 10 ){
 
 ## 3.2 Loop for
 # o loop while executa um codigo ate ter uma condicao atingida
-# o loop for executa os comandos a partir de uma quantidade definida 
-# de passos ou em uma quantidade definida de elementos
+# o loop for executa os comandos para cada elemento de um vetor definido
 
 # para i de 1 ate 20, imprima i
 for( i in 0:20){

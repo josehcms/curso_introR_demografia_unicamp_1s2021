@@ -6,7 +6,7 @@
 
 **Data:** 08-Março-2021 à 12-Março-2021
 
-**Horário:** 20:00-22:00 (_a definir_)
+**Horário:** 20:00-22:00
 
 # Proposta do curso
 
@@ -22,9 +22,9 @@ A proposta inicial é dividir o curso em cinco etapas, sendo elas:
 
 * Introdução à manipulação de bases de dados utilizando o pacote `data.table`;
 
-* Introdução à vizualização de dados utilizando o pacote `ggplot2`.
+* Introdução à visualização de dados utilizando o pacote `ggplot2`.
 
-A ideia é que as duas últimas etapas sejam trabalhadas utilizando os microdados do Censo Demográfico de 2010.
+Trabalharemos as duas últimas partes do curso de forma aplicada utilizando os [microdados do Censo Demográfico de 2010](https://ftp.ibge.gov.br/Censos/Censo_Demografico_2010/Resultados_Gerais_da_Amostra/Microdados/) e os [dados da COVID-19 divulgados pela Organização Mundial da Saúde](https://covid19.who.int/table).
 
 # Materiais
 
@@ -47,4 +47,8 @@ A ideia é que as duas últimas etapas sejam trabalhadas utilizando os microdado
 ### Parte 5 - Visualização de dados com `ggplot2`
 
 # Referências
+
+A parte introdutória do curso (Partes 1 a 3) foi inspirada nos materiais de [Leonardo Barone](https://github.com/leobarone) e na apostila [Introdução ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf) de [Victor Lemes Landeiro](https://sites.google.com/site/vllandeiror/).
+
+As partes 4 e 5 foram pensadas a partir de experiência própria lidando com manipulação de bases e com os dados do Censo Demográfico de 2010 e com os dados de COVID-19 da OMS.
 ...
