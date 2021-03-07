@@ -51,4 +51,4 @@ Trabalharemos as duas últimas partes do curso de forma aplicada utilizando os [
 A parte introdutória do curso (Partes 1 a 3) foi inspirada nos materiais de [Leonardo Barone](https://github.com/leobarone) e na apostila [Introdução ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf) de [Victor Lemes Landeiro](https://sites.google.com/site/vllandeiror/).
 
 As partes 4 e 5 foram pensadas a partir de experiência própria lidando com manipulação de bases e com os dados do Censo Demográfico de 2010 e com os dados de COVID-19 da OMS.
-...
+
