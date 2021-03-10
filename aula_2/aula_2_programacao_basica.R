@@ -28,8 +28,10 @@ graphics.off()
 ## <= : menor ou igual
 ## >  : maior
 ## >= : maior ou igual
+
 ## &  : e (and)
 ## |  : ou (or)
+
 ## !  : nao (no)
 
 x = 4
@@ -44,12 +46,19 @@ x <= y
 x > z
 z > x
 
+# T E T = T
+# T E F = F
+# F & F = F
 ## combinando
 # x eh igual a y E y eh menor que z?
-x == y & y < z
+!(x != y & y < z)
+
+# T OU T = T
+# T OU F = T
+# F Ou F = F
 
 # x eh menor que 8 OU z eh menor que 5?
-x < 8 | z < 5
+x > 8 | ( z < 5 & x == 4 )
 
 # entendendo E (&) e OU (|)
 TRUE & TRUE 
@@ -60,12 +69,19 @@ TRUE | TRUE
 TRUE | FALSE
 FALSE | FALSE
 
+
 ! ( 31 > 30 )
 
 ## 1.2 Operacoes logicas em vetores
 
 x <- c( 5, 8, 1, 10, 30, 20, 45 )
-x < 5
+
+x[ x < 5 ]
+
+which( x < 5 )
+x[ 3 ]
+x[ which( x < 5 ) ]
+x[ x < 5 ]
 
 # veja que o terceiro elemento (1) eh o unico menor que 5
 # como retornar somente esse elemento?
@@ -73,12 +89,15 @@ x < 5
 # ja vimos que nos colchetes podemos selecionar os elementos de um vetor
 # utilizando os operadoes logicos nos colchetes, teremos 
 # somente os valores TRUE para as operacoes logicas
+
 x[ x < 5 ]
 x[ x > 1 ]
 x[ x > 1 & x < 20 ]
 
 x[ x > 1 & x > 20 ]
 x[ x > 1 | x > 20 ]
+
+
 ######################################################
 
 ### Parte 2: Condicionais #---------------------------
@@ -87,11 +106,6 @@ x[ x > 1 | x > 20 ]
 # if( condicao ){ comandos } : se condicao for verdadeira, execute os comandos
 
 # else : caso contrario 
-
-x = 3
-if( x > 1 ){
-  print( 'Maior que 1!' )
-} 
 
 x = 3
 if( x > 5 ){
@@ -105,7 +119,12 @@ if( x > 5 ){
 # modulo de x = |x|
 # |2| = 2
 # |-2| = 2
-
+x = -10
+if( x < 0 ){
+  res = -x
+} else{
+  res = x
+}
 
 # Suponha que queremos classificar nossa corrida de 5km a partir do tempo gasto
 # 30 minutos ou mais = lento
@@ -113,10 +132,10 @@ if( x > 5 ){
 # menor que 25 = rapido
 
 tempo = 26
-
-if( tempo >= 30 ){
+km = 5
+if( tempo >= 30 & km < 5 ){
   corrida_class <- 'lento'
-} else if( tempo < 30 & tempo >= 25 ){
+} else if( ( tempo < 30 & tempo >= 25 ) & km == 5 ){
   corrida_class <- 'satisfatorio'
 } else{
   corrida_class <- 'rapido'
@@ -145,9 +164,10 @@ while( x < 10 ){
 
 x = 0
 while( x < 10 ){
-  if( x %% 2 == 0 ){
+
+  if(  x %% 2 != 0 ){
     print( x )
-  }
+  } 
   x <- x + 1
 }
 
@@ -159,12 +179,12 @@ while( x < 10 ){
 # o loop for executa os comandos para cada elemento de um vetor definido
 
 # para i de 1 ate 20, imprima i
-for( i in 0:20){
-  print( i )
+for( i in c( 'a', 'b', 'c') ){
+  print(i)
 }
 
 # somente os pares
-for( i in 0:20){
+for( i in 0:20 ){
   if( i %% 2 == 0 ){
     print( i )
   }
@@ -172,7 +192,7 @@ for( i in 0:20){
 
 # veja que 0:20 eh nada mais nada menos que um vetor
 
-for( i in c( 1, 5, 10 ) ){
+for( i in c( 10, 20, 1, 3, 40, 29 ) ){
   print( i )
 }
 
@@ -197,6 +217,7 @@ for( i in c( 'brasiliense', 'atletico-go', 'vasco' ) ){
 # 2) compara seus elementos a partir de algum criterio 
 # 3) retorna o valor maximo
 
+
 max( c( 1, 2, 3 ) )
 
 ## 4.2 Criando uma funcao
@@ -205,7 +226,7 @@ max( c( 1, 2, 3 ) )
 # vamos criar uma funcao que imprima 'Demografia-Unicamp'
 
 imprime_demog <- 
-  function(){
+  function( ){
     print( 'Demografia-Unicamp' )
   }
 
@@ -245,6 +266,8 @@ newton <-
     return( Forca )
   }
 
+newton(a = 10, m = 8)
+
 # conversor horas para minutos
 convert_min <- 
   function( t_horas ){
@@ -256,6 +279,14 @@ convert_min( 2 )
 
 ### EXERCICIO: crie um conversor de meses para anos
 
+convert_meses_anos <- 
+  function( t_meses ){
+    t_anos <-  t_meses / 12
+    return( t_anos )
+  }
+
+convert_meses_anos( 18 )
+
 ### EXERCICIO: crie um conversor que converta tempo em dias ou meses para anos
 ### Dica:
 ### 1) defina a funcao com dois parametros ( t e tipo )
@@ -263,11 +294,29 @@ convert_min( 2 )
 ### 2) use if e/ou else para checar o valor de tipo e definir qual operacao
 ### deve ser feita
 
+tipo = 'dias'
+tipo = 'meses'
+
+convert_meses_dias_anos <- 
+  function( t, tipo ){
+    
+    if( tipo == 'meses' ){
+      t_anos <- t / 12
+    } else if( tipo == 'dias' ){
+      t_anos <- t / 365
+    }
+    return( t_anos )
+  }
+
+convert_meses_dias_anos( t = 72, tipo = 'meses' )
+
 ### EXERCICIO: Interpolacao linear
+
 ## Considere a equação da reta: 
-## Y - Y0 = s * (X - X0)
+## Y - Y0 = s * ( X - X0 ) -> y = y0 + s * (x - x0)
 ## ( X0,Y0 ) eh o nosso ponto 0, inicial
 ## ( X1, Y1 ) eh o nosso ponto final
+# s = ( Y1 - Y0 ) / ( X1 - X0 )
 ## Suponha que nao temos o valor de s (inclinacao da reta), mas queremos
 ## encontrar um valor de Y* para um determinado X* seguindo a reta definida
 ## por (X0,Y0) e (X1,Y1). Como fazemos?
@@ -275,6 +324,16 @@ convert_min( 2 )
 ## 1) primeiro calcular s pela relacao apresentada utilizando  
 ## (X0,Y0) e (X1,Y1)
 ## 2) em seguida, calcular Y* a partir de (X0,Y0) OU (X1,Y1), s e X*
+
+interpola <- function( x0, y0, x1, y1, x ){
+  
+  s = ( y1 - y0 ) / ( x1 - x0 )
+  y = y0 + s * (x - x0)
+  
+  return( y )
+}
+
+interpola( x0 = 2000, y0 = 170, x1 = 2010, y1 = 190, x = 1998 )
 ######################################################
 
 ### Fim!

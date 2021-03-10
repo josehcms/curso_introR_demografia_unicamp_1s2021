@@ -267,6 +267,7 @@ vetor[ c( 'e2', 'e4' ) ]
 # de 5 alunos
 
 conceitos <- c( 'Bom', 'Otimo', 'Regular', 'Bom', 'Otimo' )
+class(conceitos)
 
 # se ordenarmos o vetor, a operacao sera feita pela ordem alfabetica
 sort(conceitos)
@@ -281,10 +282,12 @@ conceitos_fator
 sort( conceitos_fator )
 
 # podemos mudar os labels 
+conceitos_short <- 
 factor( conceitos,
         levels = c( 'Regular', 'Bom', 'Otimo' ),
-        labels = c( 'R', 'B', 'O' ) )
+        labels = c( 10, 50, 100 ) )
 
+conceitos_short
 # se convertermos faotres para numericos, isso nos retorna
 # o indice correspondente ao respectivo nivel, no caso:
 # 1 - Regular, 2 - Bom, 3 - Otimo
